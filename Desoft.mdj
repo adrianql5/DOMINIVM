@@ -83745,7 +83745,7 @@
 											"_parent": {
 												"$ref": "AAAAAAGWps7DoRX2cvE="
 											},
-											"name": "Construir(EP)",
+											"name": "AlmacenarRecursosEP)",
 											"ownedElements": [
 												{
 													"_type": "UMLSequenceDiagram",
@@ -83753,7 +83753,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGWps7DoRX3VIU="
 													},
-													"name": "Construir",
+													"name": "AlmacenarRecursos",
 													"ownedViews": [
 														{
 															"_type": "UMLFrameView",
@@ -83774,9 +83774,9 @@
 																	"font": "Arial;13;0",
 																	"left": 24.72998046875,
 																	"top": 5,
-																	"width": 52.736328125,
+																	"width": 117.04443359375,
 																	"height": 13,
-																	"text": "Construir"
+																	"text": "AlmacenarRecursos"
 																},
 																{
 																	"_type": "LabelView",
@@ -83855,9 +83855,9 @@
 																			"visible": false,
 																			"font": "Arial;13;0",
 																			"left": -72,
-																			"width": 117.00634765625,
+																			"width": 176.9853515625,
 																			"height": 13,
-																			"text": "(from Construir(EP))"
+																			"text": "(from AlmacenarRecursosEP))"
 																		},
 																		{
 																			"_type": "LabelView",
@@ -83973,9 +83973,9 @@
 																			"visible": false,
 																			"font": "Arial;13;0",
 																			"left": -88,
-																			"width": 117.00634765625,
+																			"width": 176.9853515625,
 																			"height": 13,
-																			"text": "(from Construir(EP))"
+																			"text": "(from AlmacenarRecursosEP))"
 																		},
 																		{
 																			"_type": "LabelView",
@@ -84092,9 +84092,9 @@
 																			"visible": false,
 																			"font": "Arial;13;0",
 																			"left": 348,
-																			"width": 117.00634765625,
+																			"width": 176.9853515625,
 																			"height": 13,
-																			"text": "(from Construir(EP))"
+																			"text": "(from AlmacenarRecursosEP))"
 																		},
 																		{
 																			"_type": "LabelView",
@@ -84318,9 +84318,9 @@
 																			},
 																			"visible": false,
 																			"font": "Arial;13;0",
-																			"width": 117.00634765625,
+																			"width": 176.9853515625,
 																			"height": 13,
-																			"text": "(from Construir(EP))"
+																			"text": "(from AlmacenarRecursosEP))"
 																		},
 																		{
 																			"_type": "LabelView",
@@ -84749,7 +84749,7 @@
 											"_parent": {
 												"$ref": "AAAAAAGWps72XRrY8k8="
 											},
-											"name": "Construir(EP)",
+											"name": "AlmacenarRecursosEnAldea(EP)",
 											"ownedElements": [
 												{
 													"_type": "UMLSequenceDiagram",
@@ -84757,7 +84757,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGWps72XRrZP/o="
 													},
-													"name": "Construir",
+													"name": "AlmacenarRecursosEnAldea",
 													"ownedViews": [
 														{
 															"_type": "UMLFrameView",
