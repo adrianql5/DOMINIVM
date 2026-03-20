@@ -1,87 +1,44 @@
 # Dominivm
 
-**Diseño de Software - Grado en Ingeniería Informática (GrEI)**
-**Curso 2024/25**
-Autores: Denís Díaz Otero, Víctor Fraga Izquierdo, Xabier Nóvoa Gómez, Adrián Quiroga Linares, Iván Gutiérrez García
+Proyecto de la asignatura Diseño de Software del Grado en Ingeniería Informática (GrEI), curso 2024/25.
 
----
+Autores: Denís Díaz Otero, Víctor Fraga Izquierdo, Xabier Nóvoa Gómez, Adrián Quiroga Linares, Iván Gutiérrez García.
 
-## 📘 Introducción
+## Introducción
 
-**Dominivm** es un proyecto académico centrado en el **diseño arquitectónico y funcional de un prototipo de videojuego de estrategia por turnos**, ambientado en civilizaciones de la Edad Antigua. Este trabajo ha sido realizado como parte de la asignatura **Diseño de Software**, con el objetivo de aplicar metodologías de diseño y patrones de software en el desarrollo de un sistema complejo e interactivo.
+Dominivm es un trabajo académico centrado en el diseño de un videojuego de estrategia por turnos ambientado en la Edad Antigua. El objetivo del proyecto no es desarrollar una versión jugable, sino definir su arquitectura y su funcionamiento mediante modelos UML y decisiones de diseño de software.
 
-> ⚠️ **Nota importante:**
-> El juego no ha sido implementado; el proyecto consiste exclusivamente en el **modelado del sistema** mediante diagramas UML y diseño estructurado.
+## Objetivo
 
----
+El proyecto busca construir una base sólida para un posible desarrollo futuro del juego. Para ello se describe tanto el comportamiento del sistema como su estructura interna, prestando atención a las responsabilidades de cada elemento y a las relaciones entre ellos.
 
-## 🎯 Objetivo del Proyecto
+## Alcance del trabajo
 
-Desarrollar un **modelo arquitectónico completo** que sirva como base para un futuro desarrollo de un videojuego retro por turnos. El diseño cubre tanto los aspectos funcionales (interacción del jugador, reglas del juego) como estructurales (clases, responsabilidades, relaciones y patrones de diseño utilizados).
+La documentación incluida en el proyecto recoge:
 
----
+- Diagramas de casos de uso para representar las principales acciones disponibles para los jugadores.
+- Diagramas de secuencia asociados a cada caso de uso, incluyendo escenarios alternativos y situaciones excepcionales.
+- Un diagrama de clases que describe la organización estructural del sistema.
+- La aplicación de varios patrones de diseño para mejorar la claridad, la extensibilidad y el mantenimiento del modelo.
 
-## 📂 Contenido del Proyecto
+## Patrones de diseño utilizados
 
-El proyecto incluye los siguientes elementos de diseño:
+En el diseño del sistema se han empleado los siguientes patrones:
 
-### ✅ Diagrama de Casos de Uso
+- Factory Method
+- Facade
+- Strategy
+- Observer
+- Singleton
+- Composite
+- State
 
-* Modelado de las principales funcionalidades disponibles para los jugadores.
-* Identificación de actores, escenarios principales y secundarios.
-* Casos como: mover personaje, recolectar recursos, levantar construcciones, atacar, cambiar de turno, etc.
+## Descripción general del sistema
 
-### 🔁 Diagramas de Secuencia
+El sistema modela una partida en la que hasta cuatro jugadores controlan distintos imperios históricos. A lo largo del juego pueden desplazarse por el mapa, recolectar recursos, construir y reparar estructuras, crear unidades civiles y militares, organizar grupos de ataque o defensa y enfrentarse a enemigos en posiciones adyacentes.
 
-* Un diagrama para **cada caso de uso**.
-* Escenarios alternativos y excepcionales modelados en detalle.
-* Secuencias como "Ataque a enemigo", "Reparar construcción", "Recolección y entrega de recursos", etc.
+Todas estas mecánicas se describen a nivel de diseño. El proyecto no incluye implementación de la lógica del juego ni una interfaz gráfica.
 
-### 🧱 Diagrama de Clases (Estructural)
+## Conclusión
 
-* Representación detallada de la arquitectura del sistema.
-* Aplicación explícita de múltiples **patrones de diseño** para lograr un sistema flexible y mantenible.
-
-### 🧠 Patrones de Diseño Aplicados
-
-* **Factory Method**
-* **Facade**
-* **Strategy**
-* **Observer**
-* **Singleton**
-* **Composite**
-* **State**
-
----
-
-## 🧩 Resumen del Sistema
-
-El sistema simula un entorno de juego en el que hasta cuatro jugadores controlan imperios históricos. A través de comandos textuales, podrán:
-
-* Moverse por el mapa.
-* Recolectar recursos naturales.
-* Construir y reparar aldeas, torres y campamentos.
-* Crear personajes civiles y militares.
-* Formar grupos de ataque o defensa.
-* Atacar estructuras o enemigos enemigos en celdas adyacentes.
-* Defenderse con torres o personajes guarnecidos.
-
-Todo ello está reflejado en el modelo UML sin implementación de lógica ni interfaz gráfica.
-
----
-
-## 🎓 Conclusiones
-
-Este proyecto demuestra la capacidad del equipo para **analizar, modelar y diseñar un sistema interactivo complejo**, utilizando herramientas modernas de ingeniería del software. Aunque no se ha realizado implementación, el diseño es suficientemente robusto para servir como base para un futuro desarrollo.
-
----
-
-## 👥 Autores
-
-* Denís Díaz Otero
-* Víctor Fraga Izquierdo
-* Xabier Nóvoa Gómez
-* Adrián Quiroga Linares
-* Iván Gutiérrez García
-
-
+El trabajo presenta una propuesta de diseño completa para un videojuego de estrategia por turnos, con especial atención a la organización del sistema y al uso de patrones de diseño adecuados. Aunque no existe una implementación funcional, la documentación sirve como base para un desarrollo posterior.
